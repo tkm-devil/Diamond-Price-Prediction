@@ -20,81 +20,72 @@ Before running the project, ensure you have the following software installed:
 
 Python 3.x: Download and install Python
 
-Additional dependencies: Run the following command to install the required packages:
+### Installing
+
+Follow the steps below to set up the development environment:
+Run the following command in powershell or command prompt
+
+1. Clone The repository
+
 ```
-{python}
+git clone https://github.com/tkm-devil/Diamond-Price-Prediction.git
+cd DiamondPricePrediction
+```
+
+2. Create a virtual environment inside DiamondPricePrediction
+
+```
+python -m venv env
+source env/bin/activate  # For Linux/Mac
+env\Scripts\activate  # For Windows
+```
+
+3. Install the dependencies:
+
+```
 pip install -r requirements.txt
 ```
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+4. Start the Flask application:
 
 ```
-Give the example
+python application.py
 ```
 
-And repeat
+5. Access the application in your web browser at http://127.0.0.1:5000
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+I will update this later.
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Flask](https://flask.palletsprojects.com/en/2.3.x/) - The web framework used
+* [Numpy](https://numpy.org/) - Data Manipulation library
+* [Pandas](https://pandas.pydata.org/) - Data Manipulation library
+* [Matplotlib](https://matplotlib.org/) - Data Visualization library
+* [Seaborn](https://seaborn.pydata.org/) - Data Visualization library
+* [Scikit-learn](https://scikit-learn.org/stable/) - Machine learning library
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+I will update this later
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+I will update this later
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Tilak Kishor Mishra** - *Initial work* - [tkm-devil](https://github.com/tkm-devil)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+I will update this later
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+I will update this later
 
